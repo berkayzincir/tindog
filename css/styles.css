@@ -1,0 +1,154 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-right: 8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.navbar-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+button {
+  margin: 5% 3% 5% 0;
+}
+
+.img {
+  size: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+#features {
+  background-color: white;
+}
+
+.topx {
+  text-align: center;
+  padding: 12% 15%;
+  font-size: 1rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1028px) {
+  .img {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+h2 { font-family: 'Montserrat-Bold', sans-serif;
+font-size: 3.7rem;
+font-weight: 900;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-style: bold;
+  padding: 5% 5%;
+  font-weight: 900;
+}
+
+.box {
+  color: #ff4c68;
+}
+
+.box:hover {
+  color: red;
+}
+
+#testimonials {
+
+text-align: center;
+background-color: #ff4c68;
+color: white;
+}
+
+.dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.spon {
+  width: 12%;
+  margin: 0 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card {
+  text-align: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+
+}
+
+.price { margin-top: 100px;
+}
+
+#pricing {
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.memet {
+  font-size: 4rem;
+  padding: 5% 20% 0 20%;
+  color: #fff;
+}
+
+#footer {
+  background-color: white;
+  padding: 3%;
+  text-align: center;
+}
+
+.footer-img {
+  margin: 5% 1%;
+}
